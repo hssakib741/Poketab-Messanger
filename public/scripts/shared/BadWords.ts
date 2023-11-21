@@ -20,6 +20,15 @@ const badWords: Record<string, boolean> = {
     'porn': true,
     'dildo': true,
     'vibrator': true,
+    'bastard': true,
+    'Madarcod': true,
+    'madari': true,
+    'baincod': true,
+    'What the fuck': true,
+    'chodo': true,
+    'choda': true,
+    
+    
 };
 
 export function filterMessage(message: string): { containsBadWords: boolean; filteredMessage: string } {
